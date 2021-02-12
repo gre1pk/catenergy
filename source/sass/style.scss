@@ -1,5 +1,9 @@
-@import "/source/sass/base/variables";
-@import "/source/sass/blocks/header";
-@import "/source/sass/base/visually-hidden";
-@import "/source/sass/base/fonts";
-@import"/source/sass/base/global";
+//base
+@import "base/variables";
+@import "base/visually-hidden";
+@import "base/fonts";
+@import "base/global";
+
+//block
+@import "blocks/header";
+@import "blocks/main-nav"

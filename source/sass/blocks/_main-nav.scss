@@ -1,0 +1,28 @@
+.main-nav{
+    display: flex;
+    flex-direction: column;
+}
+.main-nav__toggle{
+    width: 24px;
+    height: 16px;
+    
+
+  
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
+  
+    @media (min-width: $desktop-width) {
+      display: none;
+    }
+  }
+.main-nav__list {
+    display: none;
+    @media (min-width: $tablet-width) {
+        display: flex;
+      }
+    
+      @media (min-width: $desktop-width) {
+        display: flex;
+      }
+}
